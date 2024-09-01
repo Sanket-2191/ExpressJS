@@ -1,0 +1,85 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Calibri", sans-serif;
+}
+
+#navContainer {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+.fixTableHead {
+  height: 100px;
+  overflow: auto;
+  display: block;
+}
+.box-table-a {
+  
+  font-size: 12px;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+
+
+.box-table-a th {
+  font-size: 13px;
+  padding-left: 3px;
+  padding-right: 6px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: white;
+  text-align: left;
+  position: sticky;
+  top: 0;
+}
+
+tbody td {
+  padding-left: 3px;
+  padding-right: 6px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  background-color: white;
+  word-break: break-all;
+  min-width: 150px;
+  white-space: nowrap;
+}
+/* #tableHead{
+  position:-webkit-sticky; 
+  position: sticky;
+  top: 0px;
+  width: fit-content;
+  text-wrap: nowrap;
+} */
+.box-table-a td:first-child,
+.box-table-a th:first-child {
+  /* Apply a left border on the first <td> or <th> in a row */
+  border-left: 1px solid black;
+}
+
+.box-table-a tr:hover td {
+  background: #d0dafd;
+}
+
+.parentContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+#index,
+#space {
+  visibility: hidden;
+}

@@ -1,0 +1,17 @@
+<!-- // Write your code here -->
+<div class="d-flex p-2 flex-wrap justify-content-around  align-items-center" >
+    <% blogs.forEach( blog=> { %> 
+
+        <div class="d-flex align-items-center shadow-lg  mb-5 p-3 rounded" 
+        style="height: 500px; width: 600px; box-sizing: border-box;">
+            <div class="flex-shrink-0 ">
+                <img src="<%= blog.img %>"  style="width: 300px; aspect-ratio: inherit;" 
+                class="card-img-left" alt="product details">
+            </div>
+            <div class="ms-3">
+                <h2><%= blog.title%></h2>
+                <p class="card-text"><%= blog.description%></p>
+            </div>
+        </div>
+    <%})%>
+</div>

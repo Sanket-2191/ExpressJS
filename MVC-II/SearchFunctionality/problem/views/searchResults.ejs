@@ -1,0 +1,16 @@
+<!-- Write your code here to render the search data -->
+<div class="w-100 d-flex justify-content-center align-items-center">
+    <% if( searchedProducts.length<1 ) { %> 
+        <p class="text-danger fs-3 fw-semibold"> OOPS! no products matching your search found.</p>
+
+    <%} else {%>
+        <% searchedProducts.forEach(product=>{ %> 
+        <div class="card" style="width: 18rem">
+            <img src="<%=product.image%>" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text"><%=product.name%></p>
+            </div>
+          </div>
+        
+    <%})} %>
+</div>

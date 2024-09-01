@@ -1,0 +1,2 @@
+{"level":"error","message":" \"request URL\": /test-unhandled-error, \"error message\": undefined","service":"request-logging","timestamp":"2024-06-28T21:04:39.930Z"}
+{"level":"error","message":" \"request URL\": \" /test-custom-error\", \"error message\": testing app level custom error handling middleware","service":"request-logging","timestamp":"2024-06-28T21:06:19.646Z"}

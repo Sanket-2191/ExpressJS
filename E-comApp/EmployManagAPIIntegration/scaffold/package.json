@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "cors-express": "^0.2.2",
+    "express": "^4.19.2",
+    "express-route": "^0.1.4",
+    "form-data": "^4.0.0",
+    "glob": "^10.3.10",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
